@@ -1,18 +1,13 @@
 // This is the single file output by sass. It is intended to ONLY @import other files.
 
-// 0 - TOOLS
+// 0 - tools
 //@import '0-tools/bourbon/bourbon'
 @import '0-tools/fonts';
 @import '0-tools/normalize';
 
-// 1 - BASICS
-@import '1-basics/page_container_design';
+// 1 - basics
 
-// 2 - Modules
-@import '2-modules/header';
-@import '2-modules/blog_posts';
-@import '2-modules/footer';
-@import '2-modules/side_bar';
+// 2 - modules
 
 // 3 - pages
-@import '3-pages/article_page';
+@import '3-pages/temporary';
