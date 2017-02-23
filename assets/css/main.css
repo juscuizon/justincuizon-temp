@@ -2653,8 +2653,15 @@ p {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 16px; }
 
-a {
+ul, li {
+  display: inline-block;
+  margin-right: 10px; }
+
+a.bgsrc {
   color: #FFFFFF;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 9px;
   text-decoration: none; }
+
+.fa-facebook-official, .fa-instagram, .fa-twitter-square, .fa-linkedin-square, .fa-google-plus-square {
+  color: white; }
