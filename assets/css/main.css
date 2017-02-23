@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather");
 @import url("https://fonts.googleapis.com/css?family=Bree+Serif");
 @import url("https://fonts.googleapis.com/css?family=Rokkitt");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -415,6 +416,7 @@ template {
 header {
   background-image: url(../img/bg.jpg);
   height: 100vh;
+  background-position: center top;
   background-size: cover;
   display: -webkit-box;
   display: -webkit-flex;
@@ -434,6 +436,7 @@ header {
       -ms-flex-align: center;
           align-items: center; }
 
-h1 {
-  -webkit-text-stroke: 0.5px white;
-  color: black; }
+p {
+  color: #FFFFFF;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px; }
